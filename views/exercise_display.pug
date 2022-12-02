@@ -1,0 +1,19 @@
+html
+    head
+        p Hello from Dominic 
+    body
+        form(action="/variation_select" method="post")
+            p Choose your base exercise:
+                select(name="exercise" size=11 multiple)
+                    option Lower Press
+                    option Lower Pull
+                    option Upper Press
+                    option Upper Pull
+                    option Lunge
+                    option Gait
+                    option Plank
+                    option Clean
+                    option Snatch
+                    option Jerk 
+                    option Swim
+            input(type="submit")
